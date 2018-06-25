@@ -33,5 +33,8 @@ a = [1, 2, 3, 3, 2, 6, 7]
 # i = a.count(2)
 # print(i)
 # 反转函数 reverse
-a.reverse()
-print(a)
+# a.reverse()
+# print(a)
+i = 10
+if i < 1:
+    print(i)
