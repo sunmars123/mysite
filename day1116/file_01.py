@@ -23,3 +23,12 @@
 # for i in f:
 #     print(i, end="")
 # f.close()
+# 实例：在文件第六行添加末尾，查看时添加hello，word
+f = open("test.txt", "r", encoding="UTF-8")
+num = 1
+for i in f:
+    if num == 6:
+        i = "".join([i.strip(), "hello,word"])
+    print(i.strip())
+    num = num+1
+f.close()
