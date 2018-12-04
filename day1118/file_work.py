@@ -18,7 +18,6 @@
 with open("work", "r", encoding="UTF-8") as f:
     str = f.readline()
     dic = eval(str)
-    # print(dic["欧美"])
     print("城市列表如下：")
     for x,y in enumerate(dic, 1):
         print(x, '>>>', y)
@@ -40,3 +39,4 @@ with open("work", "r", encoding="UTF-8") as f:
     else:
         print("程序退出！")
 
+# print(dic["欧美"])
